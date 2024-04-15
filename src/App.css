@@ -1,0 +1,16 @@
+input ,  li{
+  transition: scale ease .2s;
+}
+li:hover , input:hover{
+  scale: 1.02;
+  cursor: pointer;
+}
+
+.buttons{
+  transition: all ease .2s;
+}
+
+.buttons:hover{
+   cursor: pointer;
+  opacity: .5;
+ }
