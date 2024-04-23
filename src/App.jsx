@@ -10,7 +10,7 @@ const App = () => {
   useEffect(() => {
     const storedTodos = localStorage.getItem('todos');
     if (!storedTodos || JSON.parse(storedTodos).length === 0) {
-      dispatch(addTodo('Greetings! Team QuadB Tech :)'));
+      dispatch(addTodo('Greetings! Team :)'));
       setNewTodo('');
     }
   }, []);
